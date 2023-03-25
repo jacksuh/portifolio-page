@@ -1,0 +1,44 @@
+.projetos{
+    max-width: 1200px;
+    padding: 40px 20px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 100px;
+    align-items: center;
+}
+
+
+.projetos .subtitulo3{
+    color: #000;
+  }
+
+
+.projeto-texto{
+    font-size: 1.5rem;
+    line-height: 1.33;
+    max-width: 40ch;
+    margin-bottom: 60px;
+    color: #525252;
+}
+
+
+@media(max-width: 800px){
+    .projetos{
+        flex-direction: column;
+        gap: 40px;
+        padding: 20px;
+    }
+    .projetos .subtitulo3 {
+      color: #141414;
+      margin-top: -1600px;
+      text-transform: uppercase;
+      word-break: normal;
+      font-size: 3rem;
+    }
+
+    .projetos .container{
+        padding-top: 300px;
+    }
+
+}
