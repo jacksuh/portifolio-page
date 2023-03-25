@@ -10,45 +10,49 @@
 </head>
 
 <body>
- <header class="header">
-    <p>Jackson Santos 
-      <span>
-      <svg viewbox="0 0 100 20">
-        <defs>
-          <linearGradient id="gradient" x1="0" x2="0" y1="0" y2="1">
-            <stop offset="5%" stop-color="#aaaaa"/>
-            <stop offset="95%" stop-color="#00FF00"/>
-          </linearGradient>
-          <pattern id="wave" x="0" y="0" width="120" height="20" patternUnits="userSpaceOnUse">
-            <path id="wavePath" d="M-40 9 Q-30 7 -20 9 T0 9 T20 9 T40 9 T60 9 T80 9 T100 9 T120 9 V20 H-40z" mask="url(#mask)" fill="url(#gradient)"> 
-              <animateTransform
-                  attributeName="transform"
-                  begin="0s"
-                  dur="1.5s"
-                  type="translate"
-                  from="0,0"
-                  to="40,0"
-                  repeatCount="indefinite" />
-            </path>
-          </pattern>
-        </defs>
-        <text text-anchor="middle" x="50" y="15" font-size="17" fill="url(#wave)"  fill-opacity="0.6">CODING...</text>
-        <text text-anchor="middle" x="50" y="15" font-size="17" fill="url(#gradient)" fill-opacity="0.1">CODING...</text>
-      </svg>
-    </span>
-  </p>
-    <nav>
-      <ul class="header-menu">
-        <li>
-        <li class="header-efeito"><a href="#experiencia">Experiência</a></li>
-        <li class="header-efeito"><a href="#formacao">Formação</a></li>
-        <li class="header-efeito"><a href="#projetos">Projetos</a></li>
-        <li class="header-efeito"><a href="#contato">Contato</a></li>
-        </li>
+ <header class="header">  
+<nav class="navbar  navbar-expand-md navbar-light 
+       py-0 box-shadow roxo ">
+       <p>Jackson Santos 
+        <span>
+        <svg viewbox="0 0 100 20">
+          <defs>
+            <linearGradient id="gradient" x1="0" x2="0" y1="0" y2="1">
+              <stop offset="5%" stop-color="#aaaaa"/>
+              <stop offset="95%" stop-color="#00FF00"/>
+            </linearGradient>
+            <pattern id="wave" x="0" y="0" width="120" height="20" patternUnits="userSpaceOnUse">
+              <path id="wavePath" d="M-40 9 Q-30 7 -20 9 T0 9 T20 9 T40 9 T60 9 T80 9 T100 9 T120 9 V20 H-40z" mask="url(#mask)" fill="url(#gradient)"> 
+                <animateTransform
+                    attributeName="transform"
+                    begin="0s"
+                    dur="1.5s"
+                    type="translate"
+                    from="0,0"
+                    to="40,0"
+                    repeatCount="indefinite" />
+              </path>
+            </pattern>
+          </defs>
+          <text text-anchor="middle" x="50" y="15" font-size="17" fill="url(#wave)"  fill-opacity="0.6">CODING...</text>
+          <text text-anchor="middle" x="50" y="15" font-size="17" fill="url(#gradient)" fill-opacity="0.1">CODING...</text>
+        </svg>
+      </span>
+    </p>
+       </a>  
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Abrir Navegação">
+            <span class="navbar-toggler-icon"></span>
+           </button>
+           <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="header-menu" class="navbar-nav ml-auto ">
+        <li class="header-efeito" class="nav-link"><a class="nav-link text-black" href="#experiencia">Experiência</a></li>
+        <li class="header-efeito" class="nav-item"><a class="nav-link text-black" href="#formacao">Formação</a></li>
+        <li class="header-efeito" class="nav-item"><a class="nav-link text-black" href="#projetos">Projetos</a></li>
+        <li class="header-efeito" class="nav-item"><a class="nav-link text-black" href="#contato">Contato</a></li> 
       </ul>
+    </div>
     </nav>
-  </header>
-
+  </header> 
   <main class="introducao">
     <img src="./img/perfil.jpg" alt="Jackson Santos" width="360px" height="450px">
     <div>
@@ -358,6 +362,11 @@
       <p class="footer-copy">Jackson Alguns direitos reservados</p>
     </div>
   </footer>
+
+
+  <script type="text/javascript" src="js/jquery-3.2.1.slim.min.js"></script>
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <script  type="text/javascript" src="js/bootstrap.js"></script>
 </body>
 
 </html>
