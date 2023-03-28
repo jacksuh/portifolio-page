@@ -26,9 +26,9 @@
 .introducao h1::before{
     content: "";
     display: block;
-    width: 130px;
-    height: 100px;
-    background: url('../img/detalhe.svg') no-repeat center;
+    width: 160px;
+    height: 500px;
+    background: url('../img/terra.jpeg') no-repeat center;
     position: absolute;
     top: -15px;
     left: -40px;

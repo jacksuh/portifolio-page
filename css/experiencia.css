@@ -3,9 +3,8 @@
     padding: 40px 20px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 2fr;
-    gap: 100px;
     align-items: center;
+    
 }
 
 .experiencia .subtitulo{
@@ -41,13 +40,14 @@
     content: "";
     display: block;
     width: 4px;
-    height: 20px;
-    background: linear-gradient(#b6f829, #67dd0a);
+    height: 300px;
+    background: linear-gradient(#29acf8, #0a18dd);
     position: absolute;
     top: 20px;
     left: -4px;
 
 }
+
 
 .empresa-ano{
     position: absolute;
