@@ -7,6 +7,6 @@ Projeto criado como portifolio.
 
 As seguintes tecnologias foram utilizadas no desenvolvimento do site do projeto:
 
-- **[HTML5](
+- **[HTML5]
 - **[CSS]
 - **[JavaScript]
