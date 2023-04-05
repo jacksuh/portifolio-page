@@ -52,6 +52,12 @@
         gap: 40px
     }
 
+    .introducao img{
+                width="200px"
+                height="300px"
+                display: none;
+            }
+
     .introducao h1{
         font-size: 2rem;
     }
@@ -69,6 +75,8 @@
         }
 
         .introducao img{
+            width="200px"
+            height="300px"
             display: none;
         }
     }
